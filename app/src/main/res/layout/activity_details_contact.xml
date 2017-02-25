@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context=".Activity.DetailsContact"
+    android:orientation="vertical"
+    android:background="@color/accent_material_dark">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:text="DETALLES DE CONTACTO"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:id="@+id/textView1"
+        android:gravity="center"
+        android:background="@color/accent_material_dark"
+        android:textColor="@color/colorAccent" />
+
+    <LinearLayout
+        android:id="@+id/fila1"
+        android:layout_weight="1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:text="NOMBRE:"
+            android:id="@+id/textView2"
+            android:gravity="fill_vertical"
+            android:paddingLeft="70dp"
+            android:background="@color/accent_material_dark"
+            android:textColor="@color/abc_input_method_navigation_guard" />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:text="LARGE"
+            android:id="@+id/textViewName"
+            android:gravity="fill_vertical"
+            android:background="@color/accent_material_dark"
+            android:textColor="@color/abc_input_method_navigation_guard" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/fila2"
+        android:layout_weight="1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:text="EDAD:"
+            android:id="@+id/textView4"
+            android:gravity="fill_vertical"
+            android:paddingLeft="70dp"
+            android:background="@color/accent_material_dark"
+            android:textColor="@color/abc_input_method_navigation_guard" />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:text="LARGE"
+            android:id="@+id/textViewEdad"
+            android:gravity="fill_vertical"
+            android:background="@color/accent_material_dark"
+            android:textColor="@color/abc_input_method_navigation_guard" />
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/fila3"
+        android:layout_weight="1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:text="OCUPACION:"
+            android:id="@+id/textView6"
+            android:gravity="fill_vertical"
+            android:paddingLeft="70dp"
+            android:background="@color/accent_material_dark"
+            android:textColor="@color/abc_input_method_navigation_guard" />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:text="LARGE"
+            android:id="@+id/textViewOcupacion"
+            android:gravity="fill_vertical"
+            android:background="@color/accent_material_dark"
+            android:textColor="@color/abc_input_method_navigation_guard" />
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/fila4"
+        android:layout_weight="1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:text="SEXO:"
+            android:id="@+id/textView8"
+            android:gravity="fill_vertical"
+            android:paddingLeft="70dp"
+            android:background="@color/accent_material_dark"
+            android:textColor="@color/abc_input_method_navigation_guard" />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:text="LARGE"
+            android:id="@+id/textViewSexo"
+            android:gravity="fill_vertical"
+            android:background="@color/accent_material_dark"
+            android:textColor="@color/abc_input_method_navigation_guard" />
+
+
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="30dp"
+        android:text="Ver"
+        android:id="@+id/btnVerImgContact"
+        android:layout_below="@+id/editTextPassword"
+        android:layout_marginTop="25dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/borderbutton"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal" />
+
+</LinearLayout>
